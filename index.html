@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tecrome Technologies - Powering Tomorrow with Technology, Strength and Innovation.">
+<title>Tecrome Technologies | Powering Tomorrow</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #17243a;
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background: #07172b;
+  color: white;
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo {
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.logo span { color: #25b8df; }
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 14px;
+}
+
+nav a:hover { color: #25b8df; }
+
+.hero {
+  background: linear-gradient(120deg, #07172b, #123c65);
+  color: white;
+  padding: 115px 8%;
+  min-height: 490px;
+}
+
+.hero small {
+  color: #45c8eb;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 6vw, 65px);
+  max-width: 850px;
+  line-height: 1.12;
+  margin: 25px 0;
+}
+
+.hero p {
+  max-width: 650px;
+  color: #d4e0ed;
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-block;
+  background: #20b5df;
+  color: #07172b;
+  padding: 14px 27px;
+  margin-top: 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 80px 8%;
+}
+
+.section-title {
+  font-size: 34px;
+  margin-bottom: 15px;
+  color: #0a1d35;
+}
+
+.intro {
+  max-width: 800px;
+  color: #657386;
+}
+
+.services {
+  background: #f4f7fa;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 22px;
+  margin-top: 40px;
+}
+
+.service-card {
+  background: white;
+  padding: 30px;
+  border: 1px solid #e5ebf1;
+  border-radius: 8px;
+  transition: .25s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: #20b5df;
+}
+
+.service-card h3 {
+  margin: 12px 0;
+  color: #0c3155;
+}
+
+.service-card p {
+  color: #687789;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.about {
+  background: white;
+}
+
+.industries {
+  background: #0b1e35;
+  color: white;
+}
+
+.industries .section-title { color: white; }
+
+.industry-item {
+  background: #142d49;
+  color: #e5f0fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.careers {
+  text-align: center;
+  background: #f3f7fb;
+}
+
+.contact {
+  background: #07172b;
+  color: white;
+}
+
+.contact h2 { color: white; }
+
+.contact p {
+  color: #c5d3e1;
+  margin-top: 10px;
+}
+
+footer {
+  background: #04101e;
+  color: #9eafc0;
+  text-align: center;
+  padding: 25px;
+  font-size: 13px;
+}
+
+@media(max-width:700px) {
+  header { padding: 20px 5%; }
+  nav { width: 100%; }
+  nav a { margin: 0 10px 0 0; }
+  .hero { padding: 80px 6%; }
+  section { padding: 60px 6%; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">TECROME<span>.</span></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#industries">Industries</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <small>TECHNOLOGY • STRENGTH • INNOVATION</small>
+  <h1>Powering Tomorrow with Technology.</h1>
+  <p>
+    Empowering businesses through intelligent technology,
+    innovative solutions and digital transformation.
+    We turn possibilities into practical solutions.
+  </p>
+  <a href="#services" class="btn">Explore Our Solutions →</a>
+</div>
+
+<section class="about" id="about">
+  <h2 class="section-title">Building the Future Through Technology</h2>
+  <p class="intro">
+    Tecrome Technologies is focused on delivering innovative,
+    reliable and scalable technology solutions that help
+    businesses grow, adapt and move forward in a connected world.
+    Our approach combines technology, practical thinking and
+    continuous innovation.
+  </p>
+</section>
+
+<section class="services" id="services">
+  <h2 class="section-title">Our Services</h2>
+  <p class="intro">
+    Integrated technology solutions designed to support
+    modern businesses and their evolving needs.
+  </p>
+
+  <div class="grid">
+    <div class="service-card">
+      <div class="icon">💻</div>
+      <h3>IT Services & Infrastructure</h3>
+      <p>IT infrastructure, technical support and business technology solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">⚙️</div>
+      <h3>Software & Web Development</h3>
+      <p>Modern websites, business applications and customized software.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🤖</div>
+      <h3>AI & Automation</h3>
+      <p>Intelligent automation and AI-driven business solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">☁️</div>
+      <h3>Cloud & Digital Solutions</h3>
+      <p>Cloud technologies and digital platforms for connected businesses.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🔐</div>
+      <h3>Cybersecurity</h3>
+      <p>Security-focused solutions and data protection services.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">📈</div>
+      <h3>Digital Marketing</h3>
+      <p>Digital presence, branding and online business growth solutions.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🏥</div>
+      <h3>Healthcare Technology</h3>
+      <p>Technology solutions for clinics and healthcare operations.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="icon">🏢</div>
+      <h3>Real Estate Technology</h3>
+      <p>Smart property systems and real estate automation solutions.</p>
+    </div>
+  </div>
+</section>
+
+<section class="industries" id="industries">
+  <h2 class="section-title">Industries We Serve</h2>
+  <p class="intro">
+    Technology solutions adaptable to different industries
+    and business environments.
+  </p>
+
+  <div class="grid">
+    <div class="industry-item">Healthcare</div>
+    <div class="industry-item">Real Estate</div>
+    <div class="industry-item">Manufacturing</div>
+    <div class="industry-item">Retail & Commerce</div>
+    <div class="industry-item">Corporate & Enterprise</div>
+    <div class="industry-item">Professional Services</div>
+  </div>
+</section>
+
+<section class="careers">
+  <h2 class="section-title">Build the Future With Us</h2>
+  <p class="intro" style="margin:auto">
+    We believe in talent, innovation and continuous learning.
+    Join us as we build technology-driven solutions for tomorrow.
+  </p>
+  <a href="mailto:info@tecrome.com?subject=Career%20Enquiry" class="btn">
+    Explore Opportunities
+  </a>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Let's Build Something Great.</h2>
+  <p>Have a project or business requirement? Let's connect.</p>
+  <p>Email: info@tecrome.com</p>
+  <a href="mailto:info@tecrome.com" class="btn">Contact Tecrome →</a>
+</section>
+
+<footer>
+  © 2026 Tecrome Technologies Pvt. Ltd. All Rights Reserved.
+  <br><br>
+  Powering Tomorrow with Technology + Strength + Innovation.
+  <br><br>
+  <span style="font-size:11px; color:#8191a3; letter-spacing:1px;">
+    A GROUP COMPANY OF SDS & ARK GROUP
+  </span>
+</footer>
