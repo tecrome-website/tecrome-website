@@ -188,13 +188,37 @@ footer {
   .hero { padding: 80px 6%; }
   section { padding: 60px 6%; }
 }
+
+/* TECROME OFFICIAL LOGO */
+
+.company-logo {
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+/* Mobile Responsive Logo */
+
+@media (max-width: 700px) {
+  .company-logo {
+    width: 210px;
+  }
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">TECROME<span>.</span></div>
+  <img src="tecrome-logo.png"
+     alt="Tecrome Technologies"
+     class="company-logo">
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
